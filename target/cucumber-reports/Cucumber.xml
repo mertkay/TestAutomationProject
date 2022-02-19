@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.288">
+    <testcase classname="HomePage Test" name="Hopi Anasayfasına gidilir ve Giris yap buttonuna tıklanır" time="6.735">
+        <system-out><![CDATA[Given Hopi sitesine git.....................................................passed
+And Hopi ikonu goruntulendigi kontrolu......................................passed
+When Giris yap buttonuna tıkldıgımda........................................passed
+Then Giriş yap text kontrolü................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

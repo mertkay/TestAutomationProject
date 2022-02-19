@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "TEstNG">
+    <test verbose="2" preserve-order="true" name = "Chrome Test">
+        <classes>
+            <class name = "Runners.RunnerGenel">
+                <parameter name = "browser" value="chrome"/>
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name = "Firefox Test">
+        <classes>
+            <class name="Runners.RunnerGenel">
+                <parameter name="browser" value="firefox"/>
+            </class>
+        </classes>
+    </test>
+</suite>
